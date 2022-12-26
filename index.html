@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>QR Code Generator</title>
-    <script src="./js/script.js" defer></script>
+    <script src="../assets/js/script.js" defer></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/css/styles.css" />
     <script>
       tailwind.config = {
         theme: {
@@ -24,11 +25,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <style>
-      #spinner {
-        display: none;
-      }
-    </style>
   </head>
   <body>
     <header class="bg-red-500 p-4 mb-10">
@@ -80,7 +76,7 @@
         </div>
         <div class="w-full md:w-1/3 self-center">
           <img
-            src="./img/qr-code.svg"
+            src="../assets/img/qr-code.svg"
             alt=""
             class="w-1/2 mb-10 m-auto md:w-full"
           />
